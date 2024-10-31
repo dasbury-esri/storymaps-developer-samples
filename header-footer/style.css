@@ -1,0 +1,55 @@
+/* Basic styling for header and footer */
+body {
+***REMOVED******REMOVED***font-family: "Sigmar";
+***REMOVED******REMOVED***margin: 0;
+***REMOVED******REMOVED***padding: 0;
+***REMOVED***}
+***REMOVED***
+***REMOVED***/* Header Styles */
+***REMOVED***header {
+***REMOVED******REMOVED***background-color: #e46116;
+***REMOVED******REMOVED***display: flex;
+***REMOVED******REMOVED***align-items: center;
+***REMOVED******REMOVED***justify-content: space-between;
+***REMOVED******REMOVED***padding: 10px 20px;
+***REMOVED******REMOVED***color: white;
+***REMOVED******REMOVED***position: sticky;
+***REMOVED******REMOVED***top: 0;
+***REMOVED******REMOVED***z-index: 1000; /* Ensure it stays on top of other elements */
+***REMOVED******REMOVED***box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+***REMOVED******REMOVED***font-family: "Sigmar One";
+***REMOVED***}
+***REMOVED***
+***REMOVED***.nav-tabs {
+***REMOVED******REMOVED***display: flex;
+***REMOVED******REMOVED***gap: 20px;
+***REMOVED***}
+***REMOVED***
+***REMOVED***.nav-tabs a {
+***REMOVED******REMOVED***color: white;
+***REMOVED******REMOVED***text-decoration: none;
+***REMOVED******REMOVED***font-size: 16px;
+***REMOVED***}
+***REMOVED***
+***REMOVED***.nav-tabs a:hover {
+***REMOVED******REMOVED***text-decoration: underline;
+***REMOVED***}
+***REMOVED***
+***REMOVED***/* Footer Styles */
+***REMOVED***footer {
+***REMOVED******REMOVED***background-color: #e46116;
+***REMOVED******REMOVED***color: white;
+***REMOVED******REMOVED***padding: 20px;
+***REMOVED******REMOVED***text-align: center;
+***REMOVED***}
+***REMOVED***
+***REMOVED***footer a {
+***REMOVED******REMOVED***color: white;
+***REMOVED******REMOVED***text-decoration: none;
+***REMOVED******REMOVED***margin: 0 15px;
+***REMOVED***}
+***REMOVED***
+***REMOVED***footer a:hover {
+***REMOVED******REMOVED***text-decoration: underline;
+***REMOVED***}
+***REMOVED***

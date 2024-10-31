@@ -1,0 +1,202 @@
+
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED*** Apache License
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED*** Version 2.0, January 2004
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***http://www.apache.org/licenses/
+
+***REMOVED*** TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+***REMOVED*** 1. Definitions.
+
+***REMOVED******REMOVED******REMOVED***"License" shall mean the terms and conditions for use, reproduction,
+***REMOVED******REMOVED******REMOVED***and distribution as defined by Sections 1 through 9 of this document.
+
+***REMOVED******REMOVED******REMOVED***"Licensor" shall mean the copyright owner or entity authorized by
+***REMOVED******REMOVED******REMOVED***the copyright owner that is granting the License.
+
+***REMOVED******REMOVED******REMOVED***"Legal Entity" shall mean the union of the acting entity and all
+***REMOVED******REMOVED******REMOVED***other entities that control, are controlled by, or are under common
+***REMOVED******REMOVED******REMOVED***control with that entity. For the purposes of this definition,
+***REMOVED******REMOVED******REMOVED***"control" means (i) the power, direct or indirect, to cause the
+***REMOVED******REMOVED******REMOVED***direction or management of such entity, whether by contract or
+***REMOVED******REMOVED******REMOVED***otherwise, or (ii) ownership of fifty percent (50%) or more of the
+***REMOVED******REMOVED******REMOVED***outstanding shares, or (iii) beneficial ownership of such entity.
+
+***REMOVED******REMOVED******REMOVED***"You" (or "Your") shall mean an individual or Legal Entity
+***REMOVED******REMOVED******REMOVED***exercising permissions granted by this License.
+
+***REMOVED******REMOVED******REMOVED***"Source" form shall mean the preferred form for making modifications,
+***REMOVED******REMOVED******REMOVED***including but not limited to software source code, documentation
+***REMOVED******REMOVED******REMOVED***source, and configuration files.
+
+***REMOVED******REMOVED******REMOVED***"Object" form shall mean any form resulting from mechanical
+***REMOVED******REMOVED******REMOVED***transformation or translation of a Source form, including but
+***REMOVED******REMOVED******REMOVED***not limited to compiled object code, generated documentation,
+***REMOVED******REMOVED******REMOVED***and conversions to other media types.
+
+***REMOVED******REMOVED******REMOVED***"Work" shall mean the work of authorship, whether in Source or
+***REMOVED******REMOVED******REMOVED***Object form, made available under the License, as indicated by a
+***REMOVED******REMOVED******REMOVED***copyright notice that is included in or attached to the work
+***REMOVED******REMOVED******REMOVED***(an example is provided in the Appendix below).
+
+***REMOVED******REMOVED******REMOVED***"Derivative Works" shall mean any work, whether in Source or Object
+***REMOVED******REMOVED******REMOVED***form, that is based on (or derived from) the Work and for which the
+***REMOVED******REMOVED******REMOVED***editorial revisions, annotations, elaborations, or other modifications
+***REMOVED******REMOVED******REMOVED***represent, as a whole, an original work of authorship. For the purposes
+***REMOVED******REMOVED******REMOVED***of this License, Derivative Works shall not include works that remain
+***REMOVED******REMOVED******REMOVED***separable from, or merely link (or bind by name) to the interfaces of,
+***REMOVED******REMOVED******REMOVED***the Work and Derivative Works thereof.
+
+***REMOVED******REMOVED******REMOVED***"Contribution" shall mean any work of authorship, including
+***REMOVED******REMOVED******REMOVED***the original version of the Work and any modifications or additions
+***REMOVED******REMOVED******REMOVED***to that Work or Derivative Works thereof, that is intentionally
+***REMOVED******REMOVED******REMOVED***submitted to Licensor for inclusion in the Work by the copyright owner
+***REMOVED******REMOVED******REMOVED***or by an individual or Legal Entity authorized to submit on behalf of
+***REMOVED******REMOVED******REMOVED***the copyright owner. For the purposes of this definition, "submitted"
+***REMOVED******REMOVED******REMOVED***means any form of electronic, verbal, or written communication sent
+***REMOVED******REMOVED******REMOVED***to the Licensor or its representatives, including but not limited to
+***REMOVED******REMOVED******REMOVED***communication on electronic mailing lists, source code control systems,
+***REMOVED******REMOVED******REMOVED***and issue tracking systems that are managed by, or on behalf of, the
+***REMOVED******REMOVED******REMOVED***Licensor for the purpose of discussing and improving the Work, but
+***REMOVED******REMOVED******REMOVED***excluding communication that is conspicuously marked or otherwise
+***REMOVED******REMOVED******REMOVED***designated in writing by the copyright owner as "Not a Contribution."
+
+***REMOVED******REMOVED******REMOVED***"Contributor" shall mean Licensor and any individual or Legal Entity
+***REMOVED******REMOVED******REMOVED***on behalf of whom a Contribution has been received by Licensor and
+***REMOVED******REMOVED******REMOVED***subsequently incorporated within the Work.
+
+***REMOVED*** 2. Grant of Copyright License. Subject to the terms and conditions of
+***REMOVED******REMOVED******REMOVED***this License, each Contributor hereby grants to You a perpetual,
+***REMOVED******REMOVED******REMOVED***worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+***REMOVED******REMOVED******REMOVED***copyright license to reproduce, prepare Derivative Works of,
+***REMOVED******REMOVED******REMOVED***publicly display, publicly perform, sublicense, and distribute the
+***REMOVED******REMOVED******REMOVED***Work and such Derivative Works in Source or Object form.
+
+***REMOVED*** 3. Grant of Patent License. Subject to the terms and conditions of
+***REMOVED******REMOVED******REMOVED***this License, each Contributor hereby grants to You a perpetual,
+***REMOVED******REMOVED******REMOVED***worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+***REMOVED******REMOVED******REMOVED***(except as stated in this section) patent license to make, have made,
+***REMOVED******REMOVED******REMOVED***use, offer to sell, sell, import, and otherwise transfer the Work,
+***REMOVED******REMOVED******REMOVED***where such license applies only to those patent claims licensable
+***REMOVED******REMOVED******REMOVED***by such Contributor that are necessarily infringed by their
+***REMOVED******REMOVED******REMOVED***Contribution(s) alone or by combination of their Contribution(s)
+***REMOVED******REMOVED******REMOVED***with the Work to which such Contribution(s) was submitted. If You
+***REMOVED******REMOVED******REMOVED***institute patent litigation against any entity (including a
+***REMOVED******REMOVED******REMOVED***cross-claim or counterclaim in a lawsuit) alleging that the Work
+***REMOVED******REMOVED******REMOVED***or a Contribution incorporated within the Work constitutes direct
+***REMOVED******REMOVED******REMOVED***or contributory patent infringement, then any patent licenses
+***REMOVED******REMOVED******REMOVED***granted to You under this License for that Work shall terminate
+***REMOVED******REMOVED******REMOVED***as of the date such litigation is filed.
+
+***REMOVED*** 4. Redistribution. You may reproduce and distribute copies of the
+***REMOVED******REMOVED******REMOVED***Work or Derivative Works thereof in any medium, with or without
+***REMOVED******REMOVED******REMOVED***modifications, and in Source or Object form, provided that You
+***REMOVED******REMOVED******REMOVED***meet the following conditions:
+
+***REMOVED******REMOVED******REMOVED***(a) You must give any other recipients of the Work or
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***Derivative Works a copy of this License; and
+
+***REMOVED******REMOVED******REMOVED***(b) You must cause any modified files to carry prominent notices
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***stating that You changed the files; and
+
+***REMOVED******REMOVED******REMOVED***(c) You must retain, in the Source form of any Derivative Works
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***that You distribute, all copyright, patent, trademark, and
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***attribution notices from the Source form of the Work,
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***excluding those notices that do not pertain to any part of
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***the Derivative Works; and
+
+***REMOVED******REMOVED******REMOVED***(d) If the Work includes a "NOTICE" text file as part of its
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***distribution, then any Derivative Works that You distribute must
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***include a readable copy of the attribution notices contained
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***within such NOTICE file, excluding those notices that do not
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***pertain to any part of the Derivative Works, in at least one
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***of the following places: within a NOTICE text file distributed
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***as part of the Derivative Works; within the Source form or
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***documentation, if provided along with the Derivative Works; or,
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***within a display generated by the Derivative Works, if and
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***wherever such third-party notices normally appear. The contents
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***of the NOTICE file are for informational purposes only and
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***do not modify the License. You may add Your own attribution
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***notices within Derivative Works that You distribute, alongside
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***or as an addendum to the NOTICE text from the Work, provided
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***that such additional attribution notices cannot be construed
+***REMOVED******REMOVED******REMOVED******REMOVED******REMOVED***as modifying the License.
+
+***REMOVED******REMOVED******REMOVED***You may add Your own copyright statement to Your modifications and
+***REMOVED******REMOVED******REMOVED***may provide additional or different license terms and conditions
+***REMOVED******REMOVED******REMOVED***for use, reproduction, or distribution of Your modifications, or
+***REMOVED******REMOVED******REMOVED***for any such Derivative Works as a whole, provided Your use,
+***REMOVED******REMOVED******REMOVED***reproduction, and distribution of the Work otherwise complies with
+***REMOVED******REMOVED******REMOVED***the conditions stated in this License.
+
+***REMOVED*** 5. Submission of Contributions. Unless You explicitly state otherwise,
+***REMOVED******REMOVED******REMOVED***any Contribution intentionally submitted for inclusion in the Work
+***REMOVED******REMOVED******REMOVED***by You to the Licensor shall be under the terms and conditions of
+***REMOVED******REMOVED******REMOVED***this License, without any additional terms or conditions.
+***REMOVED******REMOVED******REMOVED***Notwithstanding the above, nothing herein shall supersede or modify
+***REMOVED******REMOVED******REMOVED***the terms of any separate license agreement you may have executed
+***REMOVED******REMOVED******REMOVED***with Licensor regarding such Contributions.
+
+***REMOVED*** 6. Trademarks. This License does not grant permission to use the trade
+***REMOVED******REMOVED******REMOVED***names, trademarks, service marks, or product names of the Licensor,
+***REMOVED******REMOVED******REMOVED***except as required for reasonable and customary use in describing the
+***REMOVED******REMOVED******REMOVED***origin of the Work and reproducing the content of the NOTICE file.
+
+***REMOVED*** 7. Disclaimer of Warranty. Unless required by applicable law or
+***REMOVED******REMOVED******REMOVED***agreed to in writing, Licensor provides the Work (and each
+***REMOVED******REMOVED******REMOVED***Contributor provides its Contributions) on an "AS IS" BASIS,
+***REMOVED******REMOVED******REMOVED***WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+***REMOVED******REMOVED******REMOVED***implied, including, without limitation, any warranties or conditions
+***REMOVED******REMOVED******REMOVED***of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+***REMOVED******REMOVED******REMOVED***PARTICULAR PURPOSE. You are solely responsible for determining the
+***REMOVED******REMOVED******REMOVED***appropriateness of using or redistributing the Work and assume any
+***REMOVED******REMOVED******REMOVED***risks associated with Your exercise of permissions under this License.
+
+***REMOVED*** 8. Limitation of Liability. In no event and under no legal theory,
+***REMOVED******REMOVED******REMOVED***whether in tort (including negligence), contract, or otherwise,
+***REMOVED******REMOVED******REMOVED***unless required by applicable law (such as deliberate and grossly
+***REMOVED******REMOVED******REMOVED***negligent acts) or agreed to in writing, shall any Contributor be
+***REMOVED******REMOVED******REMOVED***liable to You for damages, including any direct, indirect, special,
+***REMOVED******REMOVED******REMOVED***incidental, or consequential damages of any character arising as a
+***REMOVED******REMOVED******REMOVED***result of this License or out of the use or inability to use the
+***REMOVED******REMOVED******REMOVED***Work (including but not limited to damages for loss of goodwill,
+***REMOVED******REMOVED******REMOVED***work stoppage, computer failure or malfunction, or any and all
+***REMOVED******REMOVED******REMOVED***other commercial damages or losses), even if such Contributor
+***REMOVED******REMOVED******REMOVED***has been advised of the possibility of such damages.
+
+***REMOVED*** 9. Accepting Warranty or Additional Liability. While redistributing
+***REMOVED******REMOVED******REMOVED***the Work or Derivative Works thereof, You may choose to offer,
+***REMOVED******REMOVED******REMOVED***and charge a fee for, acceptance of support, warranty, indemnity,
+***REMOVED******REMOVED******REMOVED***or other liability obligations and/or rights consistent with this
+***REMOVED******REMOVED******REMOVED***License. However, in accepting such obligations, You may act only
+***REMOVED******REMOVED******REMOVED***on Your own behalf and on Your sole responsibility, not on behalf
+***REMOVED******REMOVED******REMOVED***of any other Contributor, and only if You agree to indemnify,
+***REMOVED******REMOVED******REMOVED***defend, and hold each Contributor harmless for any liability
+***REMOVED******REMOVED******REMOVED***incurred by, or claims asserted against, such Contributor by reason
+***REMOVED******REMOVED******REMOVED***of your accepting any such warranty or additional liability.
+
+***REMOVED*** END OF TERMS AND CONDITIONS
+
+***REMOVED*** APPENDIX: How to apply the Apache License to your work.
+
+***REMOVED******REMOVED******REMOVED***To apply the Apache License to your work, attach the following
+***REMOVED******REMOVED******REMOVED***boilerplate notice, with the fields enclosed by brackets "[]"
+***REMOVED******REMOVED******REMOVED***replaced with your own identifying information. (Don't include
+***REMOVED******REMOVED******REMOVED***the brackets!)***REMOVED***The text should be enclosed in the appropriate
+***REMOVED******REMOVED******REMOVED***comment syntax for the file format. We also recommend that a
+***REMOVED******REMOVED******REMOVED***file or class name and description of purpose be included on the
+***REMOVED******REMOVED******REMOVED***same "printed page" as the copyright notice for easier
+***REMOVED******REMOVED******REMOVED***identification within third-party archives.
+
+***REMOVED*** Copyright [yyyy] [name of copyright owner]
+
+***REMOVED*** Licensed under the Apache License, Version 2.0 (the "License");
+***REMOVED*** you may not use this file except in compliance with the License.
+***REMOVED*** You may obtain a copy of the License at
+
+***REMOVED******REMOVED******REMOVED*** http://www.apache.org/licenses/LICENSE-2.0
+
+***REMOVED*** Unless required by applicable law or agreed to in writing, software
+***REMOVED*** distributed under the License is distributed on an "AS IS" BASIS,
+***REMOVED*** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+***REMOVED*** See the License for the specific language governing permissions and
+***REMOVED*** limitations under the License.

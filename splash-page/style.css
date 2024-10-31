@@ -1,0 +1,60 @@
+body.no-scroll {
+***REMOVED***overflow: hidden; /* Prevent the story scrolling while splash screen in place */
+***REMOVED***background-color: #a25d35; /* Background color while the embedded story loads */
+}
+/* Splash screen overlay */
+.splash-overlay {
+***REMOVED***position: fixed;
+***REMOVED***top: 0;
+***REMOVED***left: 0;
+***REMOVED***width: 100%;
+***REMOVED***height: 100%;
+***REMOVED***background-color: rgba(0, 0, 0, 0.8);
+***REMOVED***display: flex;
+***REMOVED***justify-content: center;
+***REMOVED***align-items: center;
+***REMOVED***z-index: 1000;
+}
+
+.splash-overlay .splash-screen {
+***REMOVED***text-align: center;
+***REMOVED***background-color: #a25d35;
+***REMOVED***min-width: 350px;
+***REMOVED***max-width: 50%;
+***REMOVED***padding: 40px;
+***REMOVED***border-radius: 10px;
+***REMOVED***box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.splash-overlay .splash-screen h1 {
+***REMOVED***font-family: "Sigmar One";
+***REMOVED***color: #ffd38e;
+***REMOVED***font-size: 4em;
+***REMOVED***margin-bottom: 10px;
+}
+
+.splash-overlay .splash-screen p {
+***REMOVED***font-family: "Sigmar";
+***REMOVED***color: #fff8e9;
+***REMOVED***font-size: 2em;
+***REMOVED***margin-bottom: 20px;
+}
+
+.splash-overlay .splash-screen button {
+***REMOVED***font-family: "Sigmar One";
+***REMOVED***padding: 10px 20px;
+***REMOVED***font-size: 2em;
+***REMOVED***color: #fff8e9;
+***REMOVED***background-color: #55290c;
+***REMOVED***border: none;
+***REMOVED***border-radius: 5px;
+***REMOVED***cursor: pointer;
+}
+
+.splash-overlay .splash-screen button:hover {
+***REMOVED***background-color: #3a1c08;
+}
+
+body {
+***REMOVED***margin: 0;
+}
