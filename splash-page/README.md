@@ -28,14 +28,14 @@ Implementing a splash screen involves:
 ```html
 <!-- Splash overlay -->
 <div class="splash-overlay" id="splashOverlay">
-<!-- Splash screen -->
-<div class="splash-screen">
-***REMOVED******REMOVED***<img src="rex_skull.svg" height="50-px" alt="T-Rex Fossil">
-***REMOVED******REMOVED***<h1>Welcome to Our Dino Dig!</h1>
-***REMOVED******REMOVED***<p>Since dinosaurs have been extinct for millions of years, we’ll become paleontologists to excavate the fossilized remains of these prehistoric giants.</p>
-***REMOVED******REMOVED***<p>Are you ready to get your hands dirty?</p>
-***REMOVED******REMOVED***<button onclick="closeSplashScreen()">Yeah, I can dig it!</button>
-</div>
+***REMOVED***<!-- Splash screen -->
+***REMOVED***<div class="splash-screen">
+***REMOVED******REMOVED***<img src="cicada.svg" height="50-px" alt="Cicada">
+***REMOVED******REMOVED***<h1>Don't bug out!</h1>
+***REMOVED******REMOVED***<p>The story you're about to read is crawling with close-ups of some creepy-crawly cicadas of The Great Eastern Brood.</p>
+***REMOVED******REMOVED***<p>Think you can handle a few extra wings, legs, and a whole lot of buzzing?</p>
+***REMOVED******REMOVED***<button onclick="closeSplashScreen()">Oh yeah, that won't <i>bug</i> me!</button>
+***REMOVED***</div>
 </div>
 ```
 
