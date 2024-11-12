@@ -1,6 +1,6 @@
 body.no-scroll {
 ***REMOVED***overflow: hidden; /* Prevent the story scrolling while splash screen in place */
-***REMOVED***background-color: #a25d35; /* Background color while the embedded story loads */
+***REMOVED***background-color: #ffffff; /* Background color while the embedded story loads */
 }
 /* Splash screen overlay */
 .splash-overlay {
@@ -18,41 +18,39 @@ body.no-scroll {
 
 .splash-overlay .splash-screen {
 ***REMOVED***text-align: center;
-***REMOVED***background-color: #a25d35;
+***REMOVED***background-color: #ffffff;
 ***REMOVED***min-width: 350px;
-***REMOVED***max-width: 50%;
+***REMOVED***max-width: 30%;
 ***REMOVED***padding: 40px;
-***REMOVED***border-radius: 10px;
 ***REMOVED***box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .splash-overlay .splash-screen h1 {
-***REMOVED***font-family: "Sigmar One";
-***REMOVED***color: #ffd38e;
+***REMOVED***font-family: "Roboto Condensed";
+***REMOVED***color: #000000;
 ***REMOVED***font-size: 4em;
 ***REMOVED***margin-bottom: 10px;
 }
 
 .splash-overlay .splash-screen p {
-***REMOVED***font-family: "Sigmar";
-***REMOVED***color: #fff8e9;
+***REMOVED***font-family: "Roboto";
+***REMOVED***color: #000000;
 ***REMOVED***font-size: 2em;
 ***REMOVED***margin-bottom: 20px;
 }
 
 .splash-overlay .splash-screen button {
-***REMOVED***font-family: "Sigmar One";
+***REMOVED***font-family: "Roboto Condensed";
 ***REMOVED***padding: 10px 20px;
 ***REMOVED***font-size: 2em;
-***REMOVED***color: #fff8e9;
-***REMOVED***background-color: #55290c;
+***REMOVED***color: #ffffff;
+***REMOVED***background-color: #000000;
 ***REMOVED***border: none;
-***REMOVED***border-radius: 5px;
 ***REMOVED***cursor: pointer;
 }
 
 .splash-overlay .splash-screen button:hover {
-***REMOVED***background-color: #3a1c08;
+***REMOVED***background-color: #353535;
 }
 
 body {
