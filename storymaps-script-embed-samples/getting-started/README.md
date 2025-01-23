@@ -20,7 +20,7 @@ Implementing a custom domain involves:
 ***REMOVED***
 <script>
 ***REMOVED***id="embed-script"
-***REMOVED***src="https://storymapsstg.arcgis.com/embed/view"
+***REMOVED***src="https://storymaps.arcgis.com/embed/view"
 ***REMOVED***data-story-id="1ba69ca9c31b4183b1ee486c36364198"
 ***REMOVED***data-root-node=".storymaps-root"
 </script>
