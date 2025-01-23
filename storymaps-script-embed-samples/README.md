@@ -30,7 +30,7 @@ Within the HTML `index.html` file a script tag is used to embed the story.
 ***REMOVED******REMOVED***
 ***REMOVED***<script
 ***REMOVED******REMOVED***id="embed-script"
-***REMOVED******REMOVED***src="https://storymapsstg.arcgis.com/embed/view"
+***REMOVED******REMOVED***src="https://storymaps.arcgis.com/embed/view"
 ***REMOVED******REMOVED***data-story-id="<UPDATE_WITH_YOUR_STORY_ID>"
 ***REMOVED******REMOVED***data-root-node=".storymaps-root"
 ***REMOVED***></script>
