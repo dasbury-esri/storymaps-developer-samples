@@ -1,29 +1,29 @@
 /* Reference self-hosted font files */
 @font-face {
-***REMOVED******REMOVED***font-family: 'Permanent-Marker';
-***REMOVED******REMOVED***src: url('./fonts/PermanentMarker/PermanentMarker-Regular.ttf') format('truetype');
+    font-family: 'Permanent-Marker';
+    src: url('./fonts/PermanentMarker/PermanentMarker-Regular.ttf') format('truetype');
 }
 
 @font-face {
-***REMOVED******REMOVED***font-family: 'Kalam';
-***REMOVED******REMOVED***src: url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
+    font-family: 'Kalam';
+    src: url('./fonts/Kalam/Kalam-Regular.ttf') format('truetype');
 }
 
 /* Replace title font */
 .sc-title {
-***REMOVED******REMOVED***font-family: 'Permanent-Marker', sans-serif !important;
-***REMOVED***}
+    font-family: 'Permanent-Marker', sans-serif !important;
+  }
 
 /* Replace heading font */
 .heading {
-***REMOVED******REMOVED***font-family: 'Permanent-Marker', sans-serif !important;
+    font-family: 'Permanent-Marker', sans-serif !important;
 }
 
 /* Replace paragraph font */
 p {
-***REMOVED******REMOVED***font-family: "Kalam" !important;
+    font-family: "Kalam" !important;
 }
 
 body {
-***REMOVED******REMOVED***margin: 0;
-***REMOVED***}
+    margin: 0;
+  }

@@ -17,83 +17,83 @@ Implementing a customer header and footer involves:
 
 **Header section** The header can contain site navigation or other links as required by your organization.
 ```html
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+<!-- Header Section -->
+<header>
+    <!-- Logo as SVG -->
+    <div class="logo">
+        <!-- Simple SVG logo (you can replace this with any other SVG code) -->
+        <img src="./rex_skull.svg" height="50-px" alt="T-Rex Fossil">
+    </div>
 
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 ```
 
 **Footer section** This section can contain contact links and various other legal links as required by your organization.
 ```html
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    <a href="#privacy-policy">Privacy Policy</a>
+    <a href="#terms-of-service">Terms of Service</a>
+    <a href="#contact">Contact Us</a>
+</footer>
 ```
 ### CSS customizations
 
 **Styling the header and footer** The header and footer of your webpage can be styled to align with branding elsewhere on your site.
 ```css
-***REMOVED***/* Header Styles */
-***REMOVED***header {
-***REMOVED******REMOVED***background-color: #e46116;
-***REMOVED******REMOVED***display: flex;
-***REMOVED******REMOVED***align-items: center;
-***REMOVED******REMOVED***justify-content: space-between;
-***REMOVED******REMOVED***padding: 10px 20px;
-***REMOVED******REMOVED***color: white;
-***REMOVED******REMOVED***position: sticky;
-***REMOVED******REMOVED***top: 0;
-***REMOVED******REMOVED***z-index: 1000; /* Ensure it stays on top of other elements */
-***REMOVED******REMOVED***box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
-***REMOVED******REMOVED***font-family: "Sigmar One";
-***REMOVED***}
-***REMOVED***
-***REMOVED***.nav-tabs {
-***REMOVED******REMOVED***display: flex;
-***REMOVED******REMOVED***gap: 20px;
-***REMOVED***}
-***REMOVED***
-***REMOVED***.nav-tabs a {
-***REMOVED******REMOVED***color: white;
-***REMOVED******REMOVED***text-decoration: none;
-***REMOVED******REMOVED***font-size: 16px;
-***REMOVED***}
-***REMOVED***
-***REMOVED***.nav-tabs a:hover {
-***REMOVED******REMOVED***text-decoration: underline;
-***REMOVED***}
+  /* Header Styles */
+  header {
+    background-color: #e46116;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+    font-family: "Sigmar One";
+  }
+  
+  .nav-tabs {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-tabs a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-tabs a:hover {
+    text-decoration: underline;
+  }
 
-***REMOVED***/* Footer Styles */
-***REMOVED***footer {
-***REMOVED******REMOVED***background-color: #e46116;
-***REMOVED******REMOVED***color: white;
-***REMOVED******REMOVED***padding: 20px;
-***REMOVED******REMOVED***text-align: center;
-***REMOVED***}
-***REMOVED***
-***REMOVED***footer a {
-***REMOVED******REMOVED***color: white;
-***REMOVED******REMOVED***text-decoration: none;
-***REMOVED******REMOVED***margin: 0 15px;
-***REMOVED***}
-***REMOVED***
-***REMOVED***footer a:hover {
-***REMOVED******REMOVED***text-decoration: underline;
-***REMOVED***}
+  /* Footer Styles */
+  footer {
+    background-color: #e46116;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
 ```

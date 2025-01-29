@@ -14,45 +14,45 @@ Implementing a splash screen involves:
 - Creating a `<div class="splash-screen">` in the HTML page that contains the text and button that will greet your readers.
 - Define a `closeSplashScreen()` function in the HTML page, called by the button that hides the `.splash-overlay`.
 - Define the appearance of the `.splash-overlay` and `.splash-screen` classes in the CSS file.
-- Prevent the main content of the page from scrolling until **the splash screen is dismissed** by adding `overflow: hidden` to the CSS of the `***REMOVED***`.
+- Prevent the main content of the page from scrolling until **the splash screen is dismissed** by adding `overflow: hidden` to the CSS of the `<body class="no-scroll">`.
 
 ### HTML snippets
 
 **Prevent the story from scrolling**: This prevents the story from scrolling when the splash screen is active.
 ```html
 <!-- Prevent the story from scrolling-->
-***REMOVED***
+<body class="no-scroll">
 ```
 
 **Splash screen and overlay**: These elements make up the `splash screen` that contains the greeting and a `splash-overlay` that obscures the story underneath.
 ```html
 <!-- Splash overlay -->
 <div class="splash-overlay" id="splashOverlay">
-***REMOVED***<!-- Splash screen -->
-***REMOVED***<div class="splash-screen">
-***REMOVED******REMOVED***<img src="cicada.svg" height="50-px" alt="Cicada">
-***REMOVED******REMOVED***<h1>Don't bug out!</h1>
-***REMOVED******REMOVED***<p>The story you're about to read is crawling with close-ups of some creepy-crawly cicadas of The Great Eastern Brood.</p>
-***REMOVED******REMOVED***<p>Think you can handle a few extra wings, legs, and a whole lot of buzzing?</p>
-***REMOVED******REMOVED***<button onclick="closeSplashScreen()">Oh yeah, that won't <i>bug</i> me!</button>
-***REMOVED***</div>
+  <!-- Splash screen -->
+  <div class="splash-screen">
+    <img src="cicada.svg" height="50-px" alt="Cicada">
+    <h1>Don't bug out!</h1>
+    <p>The story you're about to read is crawling with close-ups of some creepy-crawly cicadas of The Great Eastern Brood.</p>
+    <p>Think you can handle a few extra wings, legs, and a whole lot of buzzing?</p>
+    <button onclick="closeSplashScreen()">Oh yeah, that won't <i>bug</i> me!</button>
+  </div>
 </div>
 ```
 
 **Dismissing the splash screen**: This defines a `closeSplashScreen()` function that is called by the button within the `<div class="splash-screen">` that:
 - Hides the `<div class="splash-screen">` and all of its contents by setting `display = 'none'`.
-- Enables scrolling by removing the `no-scroll` class from the `***REMOVED***`.
+- Enables scrolling by removing the `no-scroll` class from the `<body>`.
 ```html
-***REMOVED***<script>
-***REMOVED******REMOVED***// Function to close the splash screen and reveal the story
-***REMOVED******REMOVED***function closeSplashScreen() {
-***REMOVED******REMOVED******REMOVED***// Hide the splash screen
-***REMOVED******REMOVED******REMOVED***document.getElementById('splashOverlay').style.display = 'none';
+  <script>
+    // Function to close the splash screen and reveal the story
+    function closeSplashScreen() {
+      // Hide the splash screen
+      document.getElementById('splashOverlay').style.display = 'none';
 
-***REMOVED******REMOVED******REMOVED***// Enable scrolling on the main page
-***REMOVED******REMOVED******REMOVED***document.body.classList.remove('no-scroll');
-***REMOVED******REMOVED***}
-***REMOVED***</script>
+      // Enable scrolling on the main page
+      document.body.classList.remove('no-scroll');
+    }
+  </script>
 ```
 
 ### CSS customizations
@@ -62,7 +62,7 @@ Aside from the styling of the `splash-overlay` and `splash-screen` elements, the
 This is achieved using the `.no-scroll` class and setting the `overflow: hidden`.
 ```css
 body.no-scroll {
-***REMOVED***overflow: hidden; /* Prevent the story scrolling while splash screen in place */
-***REMOVED***background-color: #a25d35; /* Background color while the embedded story loads */
+  overflow: hidden; /* Prevent the story scrolling while splash screen in place */
+  background-color: #a25d35; /* Background color while the embedded story loads */
 }
 ```

@@ -10,24 +10,24 @@ To implement analytics for your script-embedded stories you'll need:
 
 ### HTML customizations
 
-Configuring these analytics platforms typically involves placing some script within the `***REMOVED***` of your webpage. Below is an example of a Google Analytics script.
+Configuring these analytics platforms typically involves placing some script within the `<head>` of your webpage. Below is an example of a Google Analytics script.
 
 ```html
 <!-- Google Analytics Code -->
 <!-- Replace {TAG_ID} -->
 <script
-***REMOVED***async
-***REMOVED***src="https://www.googletagmanager.com/gtag/js?id={TAG_ID}"
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={TAG_ID}"
 ></script>
 <script>
-***REMOVED***window.dataLayer = window.dataLayer || [];
-***REMOVED***function gtag() {
-***REMOVED******REMOVED***dataLayer.push(arguments);
-***REMOVED***}
-***REMOVED***gtag("js", new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-***REMOVED***// Add TAG_ID here
-***REMOVED***gtag("config", "{TAG_ID}");
+  // Add TAG_ID here
+  gtag("config", "{TAG_ID}");
 </script>
 <!-- END Google Analytics Code-->
 ```

@@ -17,11 +17,11 @@ Implementing a custom domain involves:
 ### HTML customizations
 
 ```html
-***REMOVED***
+<div class="storymaps-root"></div>
 <script>
-***REMOVED***id="embed-script"
-***REMOVED***src="https://storymaps.arcgis.com/embed/view"
-***REMOVED***data-story-id="1ba69ca9c31b4183b1ee486c36364198"
-***REMOVED***data-root-node=".storymaps-root"
+  id="embed-script"
+  src="https://storymaps.arcgis.com/embed/view"
+  data-story-id="1ba69ca9c31b4183b1ee486c36364198"
+  data-root-node=".storymaps-root"
 </script>
 ```

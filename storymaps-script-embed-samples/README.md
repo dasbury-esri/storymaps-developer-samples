@@ -15,7 +15,7 @@ Embedding stories in your webpage usings `<script>` tags enables you to:
 
 Each sample folder within this repository demonstrates a specific use case and contains:
 - **HTML** index.html file that acts as the main webpage with a script-embed of an ArcGIS StoryMap story.
-- **CSS*****REMOVED***style.css file containing rules for overriding the styling of elements within a story.
+- **CSS** style.css file containing rules for overriding the styling of elements within a story.
 - **Javascript (optional)** javascript.js file containing code to manipulate content of the webpage.
 - **README** A read me document that outlines the use case for the sample, how to implement it, and a link to a live example (if applicable).
 
@@ -26,14 +26,14 @@ The contents of these files can be copied and modified to suit your needs and ho
 Within the HTML `index.html` file a script tag is used to embed the story.
 
 ```html
-***REMOVED******REMOVED***
-***REMOVED******REMOVED***
-***REMOVED***<script
-***REMOVED******REMOVED***id="embed-script"
-***REMOVED******REMOVED***src="https://storymaps.arcgis.com/embed/view"
-***REMOVED******REMOVED***data-story-id="<UPDATE_WITH_YOUR_STORY_ID>"
-***REMOVED******REMOVED***data-root-node=".storymaps-root"
-***REMOVED***></script>
+  <!-- Embedded story -->
+  <div class="storymaps-root"></div>
+  <script
+    id="embed-script"
+    src="https://storymaps.arcgis.com/embed/view"
+    data-story-id="<UPDATE_WITH_YOUR_STORY_ID>"
+    data-root-node=".storymaps-root"
+  ></script>
 ```
 
 ## Resources
@@ -42,7 +42,7 @@ Within the HTML `index.html` file a script tag is used to embed the story.
 
 ## Issues
 
-Find a bug or want to request a new feature?***REMOVED***Please let us know by submitting an issue.
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
 
 ## Contributing
 
@@ -56,7 +56,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-***REMOVED*** http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
