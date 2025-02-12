@@ -72,7 +72,7 @@ Here are some things you will need:
 
 ## Issues
 
-Find a bug or want to request a new feature? Please let us know by submitting an issue.
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
 
 ## Contributing
 

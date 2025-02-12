@@ -18,7 +18,7 @@ Each sample folder within this repository may have different requirements or ins
 
 ## Issues
 
-Find a bug or want to request a new feature? Please let us know by submitting an issue.
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
 
 ## Contributing
 
