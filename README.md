@@ -6,7 +6,7 @@ This repository is intended for sharing a collection of developer-friendly pathw
 
 - **[Find related ArcGIS Online items script](/find-related-items-script/README.md)** features a Python tool to inventory and visualize the relationships between items in your organization and beyond.
 
-- **[Script embed samples](/storymaps-script-embed-samples/README.md)** demonstrate how to embed stories in a web page using `<script>` tags which offers a variety of pathways for customizing and extending the integration of your stories within your website.
+- **[Advanced embedding examples](/storymaps-script-embed-samples/README.md)** demonstrate how to embed stories in a web page using `<script>` tags which offers a variety of pathways for customizing and extending the integration of your stories within your website.
 
 ## Instructions
 
