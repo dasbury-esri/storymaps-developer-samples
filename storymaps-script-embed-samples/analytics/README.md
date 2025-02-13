@@ -1,4 +1,4 @@
-# Analytics
+# Track engagement using your preferred analytics provider
 
 This sample demonstrates how to implement several analytics providers within your site to track metrics associated with website traffic. These include but are not limited to Google Analytics, Adobe Analytics, and Meta Pixel (facebook).
 
