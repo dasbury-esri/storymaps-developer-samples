@@ -1,4 +1,4 @@
-# ArcGIS StoryMaps developer samples
+# ArcGIS StoryMaps developer examples
 
 This repository is intended for sharing a collection of developer-friendly pathways for customizing or extending functionality related to ArcGIS StoryMaps.
 
@@ -10,7 +10,7 @@ This repository is intended for sharing a collection of developer-friendly pathw
 
 ## Instructions
 
-Each sample folder within this repository may have different requirements or instructions, explore the sample of interest to learn about specific instructions or requirements.
+Each example within this repository may have different requirements or instructions, explore the item of interest to learn about specific instructions or requirements.
 
 ## Resources
 
