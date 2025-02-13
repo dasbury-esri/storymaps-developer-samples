@@ -6,11 +6,11 @@ This folder contains code examples related to the **advanced embedding** capabil
 
 Embedding a story in your webpage using `<script>` tags enables you to:
 
-- [Add a story to your domain and customize its link](/storymaps-script-embed-samples/getting-started/README.md).
-- [Wrap a story in your header and footer](/storymaps-script-embed-samples/header-footer/README.md).
-- [Open a story with a splash page or pop-up](/storymaps-script-embed-samples/splash-page/README.md).
-- [Replace the fonts in a story with self-hosted fonts or those from a font delivery service.](/storymaps-script-embed-samples/font-replacement/README.md)
-- [Track engagement using your preferred analytics provider](/storymaps-script-embed-samples/analytics/README.md).
+- [Add a story to your domain and customize its link](/storymaps-script-embed-samples/getting-started/README.md)
+- [Wrap a story in your header and footer](/storymaps-script-embed-samples/header-footer/README.md)
+- [Open a story with a splash page or pop-up](/storymaps-script-embed-samples/splash-page/README.md)
+- [Replace the fonts in a story with self-hosted fonts or those from a font delivery service](/storymaps-script-embed-samples/font-replacement/README.md)
+- [Track engagement using your preferred analytics provider](/storymaps-script-embed-samples/analytics/README.md)
 
 ## Instructions
 
