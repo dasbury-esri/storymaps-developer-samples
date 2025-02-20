@@ -26,7 +26,7 @@ The contents of these files can be copied and modified to suit your needs and ho
 ### Embedding a story using script tags
 
 > [!IMPORTANT]
-> A story will not load when embedded with a `<script>` tag unless it was published with **advanced embedding** enabled AND at least one **allowed domain** is configured. For details on how to do this, see [Configure story settings](https://doc.arcgis.com/en/arcgis-storymaps/author-and-share/add-analytics-to-a-story.htm).
+> A story will not load when embedded with a `<script>` tag unless it was published with **advanced embedding** enabled AND at least one **allowed domain** is configured. Typically, you will add allowed domains for 1) the production system where you'll be embedding the story and 2) your test environment(s). For details, see [Configure story settings](https://doc.arcgis.com/en/arcgis-storymaps/author-and-share/add-analytics-to-a-story.htm).
 
 Within the HTML `index.html` file a script tag is used to embed the story.
 

@@ -6,27 +6,50 @@ When using this method, you may continue to edit and republish the story in the 
 
 This technique also enables you to customize the appearance and behavior of a story, but you can also embed the story as-is. For examples of the types of customizations you can do, see the other samples in this repo.
 
-## Live sample
-
-https://codepen.io/rdonihue/pen/oNKBboj
-
 ## Usage instructions
 
-Implementing a custom domain involves:
+To implement a custom domain and link:
 
-- Create an index.html page or add the following to an existing HTML page
-- add the embed-script id to your HTML page
-- add your story id in the data-story-id=""
-- host your HTML page
+1. Create an `index.html` page (or add the following code elements to an existing HTML page)
+1. Add a `<div>` called `storymaps-root` where you want the story to appear on the page
+1. Add a `<script>` tag according to the code sample below and include YOUR story item ID as the `data-story-id`
+1. Host the HTML page in the web directory of your choosing to set its URL
+    - e.g., `my-domain.gov/water-report`, `my-domain.org/our-stories/january-update`, etc.
 
-### HTML customizations
+> [!TIP]
+> You can copy pre-generated `<script>` tag code from the story builder once you have enabled advanced embedding and published your story publicly. Go to the ... menu in the header, choose **Embed this story**, then switch the dropdown to show the script embed code.
 
+### Search engine optimization
+If you are adding a story to an existing web page, it will likely already have `<meta>` tags describing the page for search engines. However, if you are creating a new web page to host a stand-alone story, you'll want to add `<meta>` tags. As a start, you can use browser tools to inspect the page source on your published story to see what tags are there and mimic many of them. Ultimately, you should configure `<meta>` tags according to your organization's guidelines and best practices.
+
+> [!TIP]
+> Be sure to DISABLE "Show in web search results" on your story when publishing to drive search engine traffic to the custom page on your domain (rather than to the story on storymaps.arcgis.com).
+  
+
+## HTML code sample
 ```html
+<!DOCTYPE html>
+<html>
+
+<!-- Add metatags below to identify the content of this page for search engines -->
+<meta></meta> 
+
+<body>
+
+<!-- Place this on the page where you want the story to appear -->
 <div class="storymaps-root"></div>
+
+<!-- Replace {YOUR-STORY-ID} with the itemID of the story -->
 <script>
   id="embed-script"
   src="https://storymaps.arcgis.com/embed/view"
-  data-story-id="1ba69ca9c31b4183b1ee486c36364198"
+  data-story-id="{YOUR-STORY-ID}"
   data-root-node=".storymaps-root"
 </script>
+
+</body>
+</html>
 ```
+
+> [!NOTE]
+> You may reference the `storymaps-root` `<div>` using a `class` (as shown above) or an `id`. If you reference it using an `id`, change `data-root-node=".storymaps-root"` to `data-root-node="#storymaps-root"`.

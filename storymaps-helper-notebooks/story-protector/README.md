@@ -14,11 +14,11 @@ This is useful as a final step during publishing to ensure that all content feat
 
 ## Instructions
 
-This notebook can be accessed and run in the [ArcGIS Notebooks environment here](https://story.maps.arcgis.com/home/item.html?id=2ae84dca748540a3be0e3c188a4d915e). These instructions will describe the steps required to run the notebook in ArcGIS Notebooks. To run locally the notebook can be downloaded and run in your own environment.
+This notebook can be accessed and run in the [ArcGIS Notebooks environment here](https://story.maps.arcgis.com/home/item.html?id=6c5c8553339c48b181cadbfe5edf5c64). These instructions will describe the steps required to run the notebook in ArcGIS Notebooks. To run locally the notebook can be downloaded and run in your own environment.
 
 To get started, you'll need to update a few parameters.
 
-1. **Open the Story Protector notebook:** [Follow this link](https://story.maps.arcgis.com/home/item.html?id=2ae84dca748540a3be0e3c188a4d915e) to open the item page for the Story Protector notebook. Click **'Open notebook'**.
+1. **Open the Story Protector notebook:** [Follow this link](https://story.maps.arcgis.com/home/item.html?id=6c5c8553339c48b181cadbfe5edf5c64) to open the item page for the Story Protector notebook. Click **'Open notebook'**.
 
 2. **Update notebook parameters:**
 - **`story_id`**: Provide the `itemId` of the selected story. This can be obtained from the url `https://storymaps.arcgis.com/stories/<itemId>`
@@ -29,7 +29,8 @@ To get started, you'll need to update a few parameters.
 
 - **`share_level`**: When sharing the items, configure at which level to share: `public`, `org`, or `private`.
 
-> **Note:**  Setting delete protection and sharing level requires the user running the script to own the items or have admin privileges.
+> [!NOTE]
+Setting delete protection and sharing level requires the user running the script to own the items or have admin privileges.
 
 3. **Run cells in the notebook:** Sequentially run each cell of the notebook individually **up to the 'Review the results' cell. Pausing before running this cell will allow the changes made by the script to take effect before verifying that the results.
 
